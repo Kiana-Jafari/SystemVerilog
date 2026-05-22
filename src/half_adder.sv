@@ -1,4 +1,14 @@
 // a simple half adder gate using existing xor_gate & and_gate (composition)
+
+/*
+Truth table of a half adder:
+A	B	SUM	CARRY
+0	0	0	0
+0	1	1	0
+1	0	1	0
+1	1	0	1
+*/
+
 module half_adder(
   input logic A,
   input logic B,
