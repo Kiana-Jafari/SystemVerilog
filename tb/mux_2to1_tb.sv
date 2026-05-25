@@ -61,3 +61,17 @@ initial begin
 end
 
 endmodule
+
+/*
+A | B | Select | F
+------------------------
+0 | 0 |  0  |  0
+0 | 0 |  1  |  0
+0 | 1 |  0  |  0
+0 | 1 |  1  |  1
+1 | 0 |  0  |  1
+1 | 0 |  1  |  0
+1 | 1 |  0  |  1
+1 | 1 |  1  |  1
+tb\mux_2to1_tb.sv:60: $finish called at 80 (1s)
+*/
