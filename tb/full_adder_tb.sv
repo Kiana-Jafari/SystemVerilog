@@ -64,3 +64,17 @@ initial begin
 end
 
 endmodule
+
+/*
+A | B | Cin | Cout | Sum
+------------------------
+0 | 0 |  0  |  0   |  0
+0 | 0 |  1  |  0   |  1
+0 | 1 |  0  |  0   |  1
+0 | 1 |  1  |  1   |  0
+1 | 0 |  0  |  0   |  1
+1 | 0 |  1  |  1   |  0
+1 | 1 |  0  |  1   |  0
+1 | 1 |  1  |  1   |  1
+tb\full_adder_tb.sv:63: $finish called at 80 (1s)
+*/
