@@ -10,3 +10,5 @@ The URL to the assignments is provided in each section, along with their testben
 2. <a href='https://github.com/Kiana-Jafari/SystemVerilog/blob/main/src/full_adder.sv'>Full Adder (implemented from two half adders)</a>
   - <a href='https://github.com/Kiana-Jafari/SystemVerilog/blob/main/tb/full_adder_tb.sv'>Testbench</a>
 ---
+3. <a href='https://github.com/Kiana-Jafari/SystemVerilog/blob/main/src/mux_2to1.sv'>2-to-1 Multiplexer</a>
+  - <a href='https://github.com/Kiana-Jafari/SystemVerilog/blob/main/tb/mux_2to1_tb.sv'>Testbench</a>
