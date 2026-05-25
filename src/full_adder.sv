@@ -30,7 +30,7 @@ half_adder half2(
     .Carry(carry2)
 );
 
-// or_gate for comparing carry1 and carry2
+// or_gate for combining carry1 and carry2
 
 or_gate or1(
     .A(carry1),
